@@ -16,10 +16,10 @@
   - At line 207 of drw.c, a line of code was added to fix the transparent border issue when using picom.
 
 ## Note
-   - My configuration still exists, so if you want to use dwm without it just remove the config.h file before builing it.
+   - My configuration still exists, so if you want to use dwm without it, just remove the config.h file before building dwm.
   
   - I put the patches I applied in a folder in case you wanted to remove one.
-  the way to remove a patch (unpatch, i guess) is to run this (assuming you're in the dwm folder):
+  the way to remove a patch (unpatch, i guess) is to run this command (assuming you're in the dwm folder):
   `patch -R < patches/<patch_name>`
 
 ## installation
